@@ -1,0 +1,17 @@
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    .nav-btn{
+        background-color: aliceblue;
+        color: blueviolet;
+        border: none;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        &:hover{
+            background-color: gray;
+        }
+    }
+}

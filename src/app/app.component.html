@@ -9,7 +9,7 @@
 
 <td [attr.colspan]="3"></td>
 
-<button (click)="onSave($event)">Save</button>
+<button (click)="onSave($event)" [class]="{bgGreen:saved,colorWhite:disabled}">Save</button>
 
 <h3>Current Customer:{{currentCustomer}}</h3>
 <h4>myClick is an Event on the custom clickDirective:</h4>
